@@ -8,7 +8,7 @@
 
 ## Running the program
 1. Edit input.json
-2. run main.py through `python main.py` or `python3 main.py` (remember to cd into the repository's root directory)
+2. Run main.py through `python main.py` or `python3 main.py` (remember to cd into the repository's root directory)
 
 ## Running tests
-1. run tests.py through `python tests.py` or `python3 tests.py` (remember to cd into the repository's root directory)
+1. Run tests.py through `python tests.py` or `python3 tests.py` (remember to cd into the repository's root directory)
