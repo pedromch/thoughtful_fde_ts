@@ -29,7 +29,7 @@ def validate_input(input_: Any):
             raise ValueError(f"Missing {key} entry in input.")
             
         if not isinstance(value, type_):
-            raise ValueError(f"{key}'s type is wrong, it should be {type_}.")
+            raise ValueError(f"{key}'s type is wrong, it should be {type_.__name__}.")
         
         if type_ == int and value <= 0:
             raise ValueError(f"{key} must be greater than 0.")
